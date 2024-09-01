@@ -1,0 +1,72 @@
+body {
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #343a40;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+#sideNav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    padding-top: 2rem; /* Adjust if needed */
+}
+
+.navbar-content {
+    margin-top: 1rem;
+    text-align: left; /* Align text to the left */
+    width: 100%; /* Ensure full width for text alignment */
+}
+
+.img-profile {
+    margin-left: 0; /* Align the image to the left */
+    margin-right: auto; /* Optional: ensure no margin on the right */
+    display: block; /* Ensures proper alignment within flex container */
+}
+
+.navbar-text {
+    margin-top: 1rem;
+}
+
+.navbar-text h1 {
+    font-size: 1.5rem; /* Adjust font size if needed */
+}
+
+.navbar-text .subheading {
+    font-size: 1rem; /* Adjust font size if needed */
+}
+
+<style>
+    .navbar-nav .nav-item {
+        margin-bottom: 20px; /* Adjust this value as needed */
+    }
+    .navbar-nav .nav-item a {
+        padding: 5px 10px; /* Optional padding adjustment */
+    }
+</style>
+
+<ul class="navbar-nav">
+    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Professional Experience">Professional Experience</a></li>
+    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Education">Education</a></li>
+    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Technical Skills">Technical Skills</a></li>
+    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Awards and Certifications">Awards and Certifications</a></li>
+    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Projects">Projects</a></li>
+</ul>
+
+.resume-section {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.resume-section h2 {
+    font-size: 2.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons a {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
