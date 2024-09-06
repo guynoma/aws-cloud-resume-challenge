@@ -14,15 +14,37 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        .navbar-nav .nav-item {
+            margin-bottom: 20px; /* Adjust this value as needed */
+        }
+        .navbar-nav .nav-item a {
+            padding: 5px 10px; /* Optional padding adjustment */
+        }
+    </style>
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body id="page-top">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="side-nav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-none d-lg-block">
                 <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." />
             </span>
         </a>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Professional Experience">Professional Experience</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Education">Education</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Technical Skills">Technical Skills</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Awards and Certifications">Awards and Certifications</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Projects">Projects</a></li>
+        </ul>
+        
+        .resume-section {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+         
         <div class="navbar-content">
             <!-- Name and Email Section -->
             <div class="navbar-text text-center">
@@ -36,8 +58,8 @@
                 </div>
             </div>
         </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></button>
+        <div class="collapse navbar-collapse" id="navbar-responsive">
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Professional Experience">Professional Experience</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Education">Education</a></li>
@@ -48,34 +70,39 @@
         </div>
     </nav>
             </section>
-            <hr class="m-0" />
+            <hr class="m-0" >
             <!-- Experience-->
-            <section class="resume-section" id="Professional Experience">
+            <section class="resume-section" id="professional-experience">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Professional Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            
+                        <div class="flex-grow-1">   
                             <p>I am a cloud computing enthusiast with comprehensive knowledge gained through completing eight AWS Educate badges. My expertise spans across cloud architecture, storage solutions, compute services, networking, database management, cloud operations, security, and serverless technologies.
-
 I have intermediate hands-on experience with key AWS services such as EC2, S3, Lambda, RDS, and VPC, with foundational skills in implementing scalable, secure, and efficient cloud solutions. My technical acumen is complemented by a strong understanding of AWS best practices, enabling me to design, deploy, and manage robust cloud environments.</p>
                         </div>
+                    </div>
+                </div>
             </section>
             <hr class="m-0" />
             <!-- Education-->
-            <section class="resume-section" id="Education">
+            <section class="resume-section" id="education">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Education</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <p>Computer Science: Central State University, Edmond Oklahoma, 1984-1988</p>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
+                            <div class="d-flex flex-column flex-md-row justify-content-between">
+                                <div class="flex-grow-1">
                             <p>Electronics and Telecommunications: Technical University of Kenya, formerly The Kenya Polytechnic, 1980-1982</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <hr class="m-0" />
             <!-- Technica Skills-->
-            <section class="resume-section" id="Technical Skills">
+            <section class="resume-section" id="technical-skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Technical Skills</h2>
                         <p><strong>Cloud Computing:</strong>Proficient in foundational cloud concepts, including cloud architecture, deployment models, and service models, with hands-on experience through the AWS Educate platform.</p>
@@ -86,10 +113,11 @@ I have intermediate hands-on experience with key AWS services such as EC2, S3, L
                         <p><strong>Cloud Operations:</strong>Newly experienced in cloud operations, including monitoring, logging, and automating tasks using AWS CloudWatch, CloudFormation, and other related services.</p>
                         <p><strong>Security:</strong>Strong understanding of AWS security best practices, including IAM, encryption, and compliance, with practical knowledge of implementing security measures across AWS services.</p>
                         <p><strong>Serverless Architecture:</strong>I have gained skills in building serverless applications using AWS Lambda, API Gateway, and DynamoDB, with the ability to design, deploy, and manage scalable serverless solutions.</p>
+                </div>
             </section>
             <hr class="m-0" />
             <!-- Awards and Certifications-->
-            <section class="resume-section" id="Awards and Certifications">
+            <section class="resume-section" id="awards-and-certifications">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Awards and Certifications</h2>
                         <p><strong>Introduction to Cloud 101:</strong>I have gained a comprehensive understanding of core cloud concepts, service models, and cloud architecture.</p>
@@ -104,11 +132,11 @@ I have intermediate hands-on experience with key AWS services such as EC2, S3, L
                         <p><strong>Bug Bounty Hunter:</strong> 2 years of experience finding vulnerabilities in web applications. Proficiency level: Intermediate.</p>
                         <p><strong>Management Experience:</strong>I have many years of formal management experience, having served as a workshop and technical manager from 2000-2004. Proficiency level: Advanced.</p>
                         <p><strong>Other Notable Skills:</strong>Expert in written communication, computer networking, and intermediate-level technical writing.</p>
+                </div>
             </section>
-        </div>
        <hr class="m-0" />
             <!-- Projects-->
-            <section class="resume-section" id="Projects">
+            <section class="resume-section" id="projects">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Projects</h2>
                         <p><strong>1-Hosting a Static Website on AWS:</strong></p>
@@ -141,7 +169,9 @@ I have intermediate hands-on experience with key AWS services such as EC2, S3, L
                         <p><strong>i-AWS Certificate Manager (ACM):</strong>For managing SSL/TLS certificates to secure the website with HTTPS.</p>
                         <p><strong>j-AWS CloudFormation:</strong>To automate the deployment of AWS resources, eliminating the need for manual configuration</p>
                         <p><strong>Outcome:</strong>I Gained hands-on experience with AWS services like S3, Lambda, DynamoDB, CloudFormation, and more, reinforcing my knowledge of cloud architecture, serverless computing, and infrastructure as code.</p>
-        <div class="counter-number nav-item nav-link text-white-50 font-os font-size-16 active">Couldn't read views</div>
+                </div>
+                <div class="counter-number nav-item nav-link text-white-50 font-os font-size-16 active">Couldn't read views</div>
+            </section>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
