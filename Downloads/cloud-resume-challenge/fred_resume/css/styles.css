@@ -1,5 +1,12 @@
 body {
-  font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  font-family: Muli, 
+  -apple-system, 
+  BlinkMacSystemFont, 
+  "Segoe UI", 
+  Roboto, 
+  "Helvetica Neue", 
+  Arial, 
+  sans-serif;
   color: #343a40;
 }
 
@@ -9,10 +16,14 @@ h3,
 h4, 
 h5, 
 h6 {
-  font-family: Saira Extra Condensed, 
-  -apple-system, BlinkMacSystemFont, 
-  Segoe UI, Roboto, 
-  Helvetica Neue, Arial, sans-serif;
+  font-family: 
+  Saira Extra Condensed, 
+  -apple-system, 
+  BlinkMacSystemFont, 
+  Segoe UI, 
+  Roboto, 
+  Helvetica Neue, 
+  Arial, sans-serif;
 }
 
 #side-nav {
