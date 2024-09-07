@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -87,7 +87,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
+      <div class="collapse navbar-collapse" id="navbar-responsive">
         <div class="navbar-content">
           <!-- Name and Email Section -->
           <div class="navbar-text text-center">
@@ -179,42 +179,48 @@
       </section>
 
       <!-- Projects -->
-      <hr class="m-0" />
-      <section class="resume-section" id="projects">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Projects</h2>
-          <p><strong>1-Hosting a Static Website on AWS:</strong></p>
-                        <p><strong>Objective:</strong>To host a static website by integrating a third-party domain with AWS Route 53 and leveraging Amazon S3 for scalable and cost-effective web hosting.</p>
-                        <p><strong>Key Responsibilities:</strong>.</p>
-                        <p><strong>a-Domain Integration:</strong>Integrated a third-party domain with AWS Route 53, ensuring seamless DNS management and global domain name resolution.</p>
-                        <p><strong>b-Website Hosting:</strong>Utilized Amazon S3 to host the static website, taking advantage of its high availability, scalability, and security features to deliver content efficiently to end-users.</p>
-                        <p><strong>c-DNS Configuration:</strong>Configured Route 53 to manage DNS records, including setting up the necessary A and CNAME records to point the domain to the S3 bucket hosting the website.</p>
-                        <p><strong>d-Security and Optimization:</strong>Implemented appropriate bucket policies and configured S3 settings to ensure secure access and optimized content delivery.</p>
-                        <p><strong>The following technologies are used:</strong>Amazon S3 for hosting and serving static content</p>
-                        <p><strong>Amazon Route 53:</strong>For DNS management and domain integration.</p>
-                        <p><strong>Outcome:</strong>Successfully launched a fully functional, secure, and scalable static website with seamless domain integration, resulting in optimized content delivery and enhanced user experience.</p>
-                        <p><strong>2-AWS Web Server Set-up with Application Load Balancer (ALB):</strong></p>
-                        <p><strong>Objective:</strong> To ensure a highly available, scalable, and secure solution for hosting web applications. By distributing traffic across multiple instances, the ALB improved performance, optimized costs, and enhanced the overall user experience.</p>
-                        <p><strong>The following technologies are used:</strong></p>
-                        <p><strong>a-Linux:</strong>The operating system for the EC2 instances.</p>
-                        <p><strong>b-Amazon EC2 (Elastic Compute Cloud):</strong>The service used to create and manage the web server instances.</p>
-                        <p><strong>c-Application Load Balancer (ALB):</strong>The load balancer used to distribute traffic across multiple EC2 instances.</p>
-                        <p><strong>d-Target Group:</strong>The grouping of EC2 instances behind the ALB, used to manage routing traffic to the appropriate instances.</p>
-                        <p><strong>3-AWS Cloud Resume Challenge:</strong></p>
-                        <p><strong>Objective:</strong>To create a portfolio piece demonstrating my cloud skills. The challenge focuses on developing skills in areas like web hosting, serverless computing, infrastructure as code, continuous integration and deployment (CI/CD), and cloud security, while also showcasing the participant's abilities in a tangible and publicly accessible way.</p>
-                        <p><strong>The following technologies are used:</strong></p>
-                        <p><strong>a-AWS S3 (Simple Storage Service):</strong>For hosting the static website (resume).</p>
-                        <p><strong>b-AWS CloudFront:</strong>As a content delivery network (CDN) to distribute the website globally with low latency.</p>
-                        <p><strong>c-AWS Route 53:</strong>For domain name registration and DNS routing to the S3 bucket or CloudFront distribution.</p>
-                        <p><strong>d-AWS Lambda:</strong>For serverless backend logic to update visitor counter.</p>
-                        <p><strong>e-AWS API Gateway:</strong>To expose the Lambda function(s) as a RESTful API.</p>
-                        <p><strong>g-AWS DynamoDB:</strong>A NoSQL database to store visitor counts.</p>
-                        <p><strong>h-AWS IAM (Identity and Access Management):</strong>To manage permissions and secure access to AWS resources.</p>
-                        <p><strong>i-AWS Certificate Manager (ACM):</strong>For managing SSL/TLS certificates to secure the website with HTTPS.</p>
-                        <p><strong>j-AWS CloudFormation:</strong>To automate the deployment of AWS resources, eliminating the need for manual configuration</p>
-                        <p><strong>Outcome:</strong>I Gained hands-on experience with AWS services like S3, Lambda, DynamoDB, CloudFormation, and more, reinforcing my knowledge of cloud architecture, serverless computing, and infrastructure as code.</p>
-        </div>
-    </section>
+     <!-- Projects -->
+<hr class="m-0" />
+<section class="resume-section" id="projects">
+  <div class="resume-section-content">
+    <h2 class="mb-5">Projects</h2>
+
+    <p><span style="background-color: #ccffcc;"><strong>1-Hosting a Static Website on AWS:</strong></span></p>
+    <p><strong>Objective:</strong> Host a static website by integrating a third-party domain with AWS Route 53 and leveraging Amazon S3 for scalable and cost-effective web hosting.</p>
+    <p><strong>Key Responsibilities:</strong></p>
+    <ul>
+      <li><strong>Domain Integration:</strong> Integrated a third-party domain with AWS Route 53, ensuring seamless DNS management and global domain name resolution.</li>
+      <li><strong>Website Hosting:</strong> Utilized Amazon S3 to host the static website, taking advantage of its high availability, scalability, and security features to deliver content efficiently to end-users.</li>
+      <li><strong>DNS Configuration:</strong> Configured Route 53 to manage DNS records, including setting up the necessary A and CNAME records to point the domain to the S3 bucket hosting the website.</li>
+      <li><strong>Security and Optimization:</strong> Implemented appropriate bucket policies and configured S3 settings to ensure secure access and optimized content delivery.</li>
+    </ul>
+    <p><strong>Technologies Used:</strong> Amazon S3, Amazon Route 53.</p>
+    <p><strong>Outcome:</strong> Successfully launched a functional, secure, and scalable static website.</p>
+
+    <p><span style="background-color: #ccffcc;"><strong>2-AWS Web Server Set-up with Application Load Balancer (ALB):</strong></span></p>
+    <p><strong>Objective:</strong> Ensure a highly available, scalable, and secure solution for hosting web applications.</p>
+    <ul>
+      <li>Implemented Application Load Balancer (ALB) to distribute incoming traffic across multiple EC2 instances, improving fault tolerance and performance.</li>
+      <li>Configured target groups for routing traffic to specific EC2 instances based on health checks.</li>
+      <li>Implemented security best practices, including setting up security groups and VPC for network isolation and access control.</li>
+    </ul>
+    <p><strong>Technologies Used:</strong> Linux (OS for EC2 instances), Amazon EC2, Application Load Balancer (ALB), Target Group.</p>
+    <p><strong>Outcome:</strong> Improved performance, optimized costs, and enhanced user experience.</p>
+
+    <p><span style="background-color: #ccffcc;"><strong>3-AWS Cloud Resume Challenge:</strong></span></p>
+    <p><strong>Objective:</strong> Demonstrate cloud skills through a portfolio piece focusing on web hosting, serverless computing, CI/CD, and cloud security.</p>
+    <ul>
+      <li><strong>Web Hosting:</strong> Deployed a static website using Amazon S3 and integrated CloudFront for CDN to ensure fast, reliable access to the site across the globe.</li>
+      <li><strong>Serverless Architecture:</strong> Built serverless backend using AWS Lambda to handle website visitor counter, and API Gateway to manage API requests.</li>
+      <li><strong>Database Management:</strong> Used DynamoDB as a NoSQL database to store visitor count with minimal latency and cost.</li>
+      <li><strong>CI/CD Pipeline:</strong> Automated deployment and updates using AWS CodePipeline, ensuring faster iterations with less manual intervention.</li>
+      <li><strong>Security Best Practices:</strong> Implemented IAM roles for fine-grained access control, ensuring only necessary permissions are granted.</li>
+    </ul>
+    <p><strong>Technologies Used:</strong> AWS S3, AWS CloudFront, AWS Route 53, AWS Lambda, AWS API Gateway, AWS DynamoDB, AWS IAM, AWS Certificate Manager (ACM), AWS CloudFormation, AWS CodePipeline.</p>
+    <p><strong>Outcome:</strong> Gained hands-on experience with AWS services and reinforced knowledge in cloud architecture and serverless computing.</p>
+  </div>
+</section>
+
      <div class="counter-container">
       <p class="counter-number">Views: 0</p> <!-- This is the counter element -->
      </div>
