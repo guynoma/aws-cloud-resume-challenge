@@ -11,7 +11,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v3
       - uses: jakejarvis/s3-sync-action@master
         with:
           args: --follow-symlinks --delete
@@ -21,4 +21,5 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: "us-east-1"
           SOURCE_DIR: './Downloads/cloud-resume-challenge/fred_resume'
+
 
